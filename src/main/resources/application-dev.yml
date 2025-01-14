@@ -1,11 +1,12 @@
 server:
   port: 8081
 spring:
+  messages:
+    basename: messages, errors
   datasource:
     username: root
-    password: '0000'
-#    password: 'prepia'
-#    url: jdbc:mysql://localhost:3306/eSIM
+#    password: '0000'
+    password: 'prepia'
     url: jdbc:mysql://localhost:3306/eSIM
     driver-class-name: com.mysql.cj.jdbc.Driver
 
